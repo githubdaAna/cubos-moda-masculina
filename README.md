@@ -1,0 +1,1 @@
+# cubos-moda-masculina

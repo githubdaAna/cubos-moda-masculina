@@ -1,0 +1,57 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 478px;
+    width: 322px;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.container-products:hover {
+    transform: scale(1.1);
+}
+
+.container-products img {
+    width: 322px;
+    height: 322px;
+    margin-top: 20px;
+}
+
+.product-name {
+    font-size: 12px;
+}
+
+.container-prices,
+.container-installments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.container-prices {
+    margin-top: 20px;
+}
+
+.container-prices span {
+    margin-right: 4px;
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #ABA0A0;
+}
+
+.container-installments {
+    margin-top: 8px;
+}
+
+.container-installments span {
+    font-size: 12px;
+    margin-left: 4px;
+}

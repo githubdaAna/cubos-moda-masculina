@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-modal {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 774px;
+    height: 95vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0 64px;
+}
+
+.modal-body p {
+    text-align: justify;
+    margin: 48px;
+}
+
+.product-img {
+    width: 300px;
+    height: 300px;
+}
+
+.close-icon {
+    position: absolute;
+    right: 38px;
+    top: 38px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.content-prices,
+.content-installments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+}
+
+.content-prices {
+    margin-top: 20px;
+}
+
+.content-prices span {
+    margin-right: 4px;
+    text-decoration: line-through;
+    font-size: 12px;
+    color: #ABA0A0;
+}
+
+.content-installments {
+    margin-top: 8px;
+}
+
+.content-installments span {
+    color: #000000;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.container-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 48px 48px;
+    width: calc(100%-96px);
+}
+
+.btn-buy {
+    border: none;
+    width: 300px;
+    height: 64px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #52BB50;
+}
+
+.btn-buy:hover {
+    opacity: 0.8;
+}
+
+.container-prices {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    width: 50%;
+    margin-bottom: 35px;
+}
